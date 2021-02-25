@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order menu</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" media="screen and (max-width: 811px)" href="phone2.css">
+</head>
+<body>
+    <nav id="navigation-bar">
+        <div id="logo">
+            <img src="logo.jpg" alt="Error while loading image">
+        </div>
+        <ul>
+            <li class="item"><a href="project.html">Home</a></li>
+            <li class="item"><a href="project.html#services-container">Services</a></li>
+            <li class="item"><a href="project.html#information">About us</a></li>
+            <li class="item"><a href="project.html#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="section-dish">
+        <div class="dish1">
+            <div class="dish"><h3>Pizza</h3> <img class="images" src="pizza.jpg" alt="pizza image"></div>
+            <div class="dish"><h3>Tandoori</h3> <img class="images" src="Tandoori-Chicken.jpg" alt="tandoori image"></div>
+            <div class="dish"><h3>Nan</h3> <img class="images" src="nan.jpg" alt="nan image"></div>
+            <div class="dish"><h3>Biriyani</h3> <img class="images" src="Biriyani.jpg" alt=""></div>
+        </div>
+        <div class="dish2">
+            <div class="dish"><h3>Chinese</h3><img class="images" src="chinese.jpg" alt="chinese food"></div>
+            <div class="dish"><h3>Chilli paneer</h3><img class="images" src="paneer.jpg" alt=""></div>
+            <div class="dish"><h3>Chilli chiken</h3><img src="chicken.jpg" alt="" class="images"></div>
+            <div class="dish"><h3>South Indian</h3><img src="south.jpg" alt="" class="images"></div>
+        </div>
+        <div class="dish3">
+            <div class="dish"><h3>Punjabi</h3><img src="punjabi.jpg" alt="" class="images"></div>
+            <div class="dish"><h3>Eastindia</h3><img src="ben.jpg" alt="" class="images"></div>
+            <div class="dish"><h3>Rajasthani</h3><img src="rajasthan.jpg" alt="" class="images"></div>
+            <div class="dish"><h3>Deserts</h3><img src="image.jpg" alt="" class="images"></div>
+        </div>
+    </section>
+    <form method="POST" action="/order">
+        <h3 class="heading">Make your order:</h3>
+        <input class="input" name="order" type="text" placeholder="place your order">
+        <button class="btn">Order</button>
+    </form>
+</body>
+</html>
